@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     margin: 0px;
-
     font-family: 'Montserrat';
 }
 
@@ -27,7 +26,6 @@ a {
 
 .header-line-one {
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
 }
 
@@ -54,23 +52,29 @@ a {
 .project-language {
     font-size: 20px;
     font-weight: 100px;
-    color: #9d9d9d;
+    color: #d0d1cb;
 }
 
 .project-year-created {
+    float: right;
     padding-top: 5px;
     font-size: 18px;
-    color: #e2e2e2;
+    color: #9d9d9d;;
 }
 
 .project-box-text {
-    padding: 10px 100px 10px 10px;
+    margin: 0px;
+    padding: 0px 100px 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     justify-items: left;
     text-align: left;
     color: #d0d1cb;
+}
+
+.bullet-list {
+    margin: 0px;
 }
 
 .bullet {
