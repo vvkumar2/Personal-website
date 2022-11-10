@@ -21,9 +21,9 @@ const Projects = () => {
   return (
     <div className="projects-section">
         <SectionHeader header_name="Projects" />
-        <ProjectBox name="NLP Sentence Classification" language="Python" year="2022" desc={proj2_bullets} url="" bubble_color="#3168b0"/>
-        <ProjectBox name="Food Image Classification" language="Python" year="2022" desc={proj3_bullets} url="" bubble_color="#3168b0"/>
-        <ProjectBox name="Human Resources Database" language="Java" year="2021" desc={proj1_bullets} url="" bubble_color="#d18b45"/>
+        <ProjectBox name="NLP Sentence Classification" language="Python" year="2022" desc={proj2_bullets} bubble_color="#3168b0"/>
+        <ProjectBox name="Food Image Classification" language="Python" year="2022" desc={proj3_bullets} url="https://colab.research.google.com/drive/15ovjEiWvcYr51txtNFKkZqFiQZbIMX3y?usp=share_link" bubble_color="#3168b0"/>
+        <ProjectBox name="Human Resources Database" language="Java" year="2021" desc={proj1_bullets} url="https://github.com/vvkumar2/HR-Database" bubble_color="#d18b45"/>
     </div>
   );
 };
