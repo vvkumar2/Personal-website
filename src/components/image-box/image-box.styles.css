@@ -3,11 +3,15 @@
     height: 150px;
     background-color: #191a1a;
     border: 1px solid #252727;
+
+    transition: .15s;
 }
 
 .image-container:hover {
     transform: scale(1.008);
     box-shadow: 1px 1px 25px #121111;
+    
+    transition: .1s;
 }
 
 .image-container-items {

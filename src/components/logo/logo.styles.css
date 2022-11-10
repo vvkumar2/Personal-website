@@ -1,0 +1,13 @@
+.logo-container {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: white;
+    position: absolute;
+    padding: 10px 0px 0px 10px;
+}
+
+.logo-text {
+    line-height: 30px;
+    margin: 0px;
+}

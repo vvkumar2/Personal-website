@@ -9,7 +9,7 @@ const ImageBox = (props) => {
     <div className="image-container">
         <div className="image-container-items">
             <img className="image" src={props.image_location} alt="" />
-            <h1 className="image-skill">{props.skill_name}</h1>
+            <p className="image-skill">{props.skill_name}</p>
         </div> 
     </div>
     );

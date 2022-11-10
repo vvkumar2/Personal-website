@@ -6,7 +6,7 @@ import './about.styles.css'
 
 const About = () => {
   return (
-    <div className="about-section">
+    <div className="about-section" id="about-section-id">
         <SectionHeader header_name="About" />
         <AboutText />
     </div>

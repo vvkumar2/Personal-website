@@ -17,7 +17,7 @@ const Work = () => {
         ]
 
   return (
-    <div className="work-section">
+    <div className="work-section" id="experience-section-id">
         <SectionHeader header_name="Experience" />
         <WorkBox name="Intel Corporation" location="Santa Clara, CA" year="April 2022 - Present" position="Software Engineering Intern" desc={work1_bullets}/>
         <WorkBox name="You First Services, Inc." location="Buffalo, NY" year="July 2022 - November 2020" position="Engineering and Digital Marketing Intern" desc={work2_bullets}/>

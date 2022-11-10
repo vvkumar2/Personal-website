@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .footer-line {
+    margin: 3px;
     font-size: 12px;
     font-family: 'Montserrat';
     color: #d0d1cb;

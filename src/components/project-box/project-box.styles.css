@@ -6,11 +6,14 @@
     flex-direction: column;
     margin: 0px;
     font-family: 'Montserrat';
+
+    transition: .6s;
 }
 
 .project-box:hover {
     transform: scale(1.008);
     box-shadow: 1px 1px 25px #121111;
+    transition: .3s;
 }
 
 a {

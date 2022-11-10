@@ -8,8 +8,9 @@ import './skills.styles.css'
 
 const Skills = () => {
   return (
-    <div className="skills-section">
-        <SectionHeader header_name="My Skills" />
+    <div className="skills-section" id="skills-section-id">
+        {/* <SectionHeader header_name="My Skills" /> */}
+        <h1 className="skills-heading">My Skills</h1>
         <ImageBoxList />
 
     </div>
