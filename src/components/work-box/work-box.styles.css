@@ -1,5 +1,6 @@
 .experience-box {
-    background-color: #171717;
+    background-color: #191a1a;
+    ;
     border-radius: 15px;
     width: 60%;
     display: flex;
@@ -13,9 +14,13 @@
     box-shadow: 1px 1px 25px #121111;
 }
 
+.experience-box-header {
+    padding: 15px 25px 20px 25px;
+}
 .header-line-one {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 10px;
 }
 
 .header-line-two {
@@ -23,10 +28,39 @@
     flex-wrap: wrap;
 }
 
+.experience-name {
+    color: white;
+    margin: 0px
+    
+}
+
+.experience-position {
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+}
+
 .experience-location {
+    margin: 0px;
     margin-left: auto;
+    font-size: 20px;
+    color: #d0d1cb;
 }
 
 .experience-year {
+    margin: 0px;
     margin-left: auto;
+    font-size: 18px;
+    color: #9d9d9d;
+}
+
+.experience-box-text {
+    margin: 0px;
+    padding: 0px 100px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+    color: #d0d1cb;
 }

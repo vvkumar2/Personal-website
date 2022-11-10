@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-line {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: #d0d1cb;
+}
+
+.footer-link {
+    color: #868683;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #d0d1cb;
+}

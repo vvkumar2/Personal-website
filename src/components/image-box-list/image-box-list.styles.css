@@ -1,0 +1,9 @@
+.image-box-list {
+    margin: 0 auto 0 auto;
+    padding-bottom: 100px;
+    justify-content: center;
+    width: 75%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}

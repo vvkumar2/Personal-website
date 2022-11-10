@@ -1,0 +1,26 @@
+.image-container {
+    width: 160px;
+    height: 150px;
+    background-color: #191a1a;
+    border: 1px solid #252727;
+}
+
+.image-container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.image {
+    max-height: 70px;
+    margin: 0px;
+}
+
+.image-skill {
+    margin: 0px;
+    margin-top: 20px;
+
+    color: #d0d1cb;
+    font-size: 16px;
+}
