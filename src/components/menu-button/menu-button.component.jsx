@@ -17,7 +17,7 @@ const MenuButton = () => {
     return (
         <div>
             <div className="hamburger-button">
-                <Hamburger color="#4FD1C5" direction="left" rounded toggled={isOpen} toggle={setOpen}/>
+                <Hamburger color="white" direction="left" rounded toggled={isOpen} toggle={setOpen}/>
             </div>
             {/* { isOpen ? <div className={classes}>HIHIHI</div> : null } */}
             <div className={classes}>

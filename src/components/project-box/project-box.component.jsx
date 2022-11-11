@@ -8,7 +8,7 @@ const ProjectBox = (props) => {
     <div className="project-box">
         <div className="project-box-header">
             <div className="header-line-one">
-                <a href={props.url}>
+                <a href={props.url} target="_blank">
                     <h1 className="project-name">{props.name}</h1>
                 </a>
                 <div className="project-right-side">

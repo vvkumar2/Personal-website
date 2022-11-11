@@ -1,0 +1,74 @@
+.home-text-container {
+    color: white;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    height: 105vh;
+    width: 90%;
+}
+
+.home-text {
+    font-size: 50px;
+    color: white;
+    padding-top: 35vh;
+    font-family: "Montserrat";
+    margin: 0px
+}
+
+.home-links-hide .home-link-logo1 {
+    margin: 200px 50px 0px 50px;
+    opacity: 0;
+    transition: 1s;
+    pointer-events:none;
+}
+
+.home-links-show .home-link-logo1 {
+    opacity: 1;
+    transition: 1s;
+    margin: 80px 50px 0px 50px;
+}
+
+.home-links-hide .home-link-logo2 {
+    margin: 200px 50px 0px 50px;
+    opacity: 0;
+    transition: 1s;
+    pointer-events:none;
+}
+
+.home-links-show .home-link-logo2 {
+    opacity: 1;
+    transition: 1s;
+    margin: 80px 50px 0px 50px;
+}
+
+.home-links-hide .home-link-down-arrow {
+    margin: 300px 50px 0px 50px;
+    opacity: 0;
+    transition: 1s;
+    pointer-events:none;
+}
+
+.home-links-show .home-link-down-arrow {
+    opacity: 1;
+    transition: 1s;
+    margin: 180px 50px 0px 50px;
+    cursor: pointer;
+}
+
+.home-links-show .home-link-logo1:hover {
+    /* padding: 10px; */
+    transform: translateY(-20px);
+    transition: .5s;
+}
+
+.home-links-show .home-link-logo2:hover {
+    /* padding: 10px; */
+    transform: translateY(-20px);
+    transition: .5s;
+}
+
+.home-links-show .home-link-down-arrow:hover 
+{
+    padding: 10px;
+    transform: translateY(-20px);
+    transition: .5s;
+}

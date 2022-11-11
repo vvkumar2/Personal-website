@@ -1,4 +1,5 @@
 .hamburger-button {
+    margin: 0px;
     float: right;
 }
 
@@ -18,8 +19,10 @@
 }
 
 .hamburger-links {
+    padding-top: 50px;
     padding-right: 10px;
     line-height: 25px;
+    margin: 5px;
 }
 
 .hamburger-links:hover {

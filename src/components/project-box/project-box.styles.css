@@ -7,13 +7,13 @@
     margin: 0px;
     font-family: 'Montserrat';
 
-    transition: .6s;
+    transition: .4s;
 }
 
 .project-box:hover {
-    transform: scale(1.008);
+    transform: scale(1.015);
     box-shadow: 1px 1px 25px #121111;
-    transition: .3s;
+    transition: .2s;
 }
 
 a {
