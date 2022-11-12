@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar-section">
-        <div>
+        <div className="logo-in-navbar">
             <Logo />
         </div>
         <div className="navbar-hamburger">

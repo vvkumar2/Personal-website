@@ -35,13 +35,13 @@ const Home = () => {
                 <h1 className="home-text">
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
-                        words={['Hi, I am Varun Kumar.']}
-                        loop={1}
+                        words={["", 'Hi, I am Varun Kumar.']}
+                        loop={2}
                         cursor
                         cursorStyle='|'
                         typeSpeed={110}
                         deleteSpeed={50}
-                        delaySpeed={1000000000}
+                        delaySpeed={500}
                         onLoopDone={handleLoopDone}
                     />
                 </h1>

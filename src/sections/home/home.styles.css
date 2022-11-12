@@ -1,9 +1,10 @@
 .home-text-container {
     color: white;
     text-align: center;
-    margin: 0 auto 0 auto;
-    height: 105vh;
+    margin: 0 auto 100px auto;
+    height: 100vh;
     width: 90%;
+    border-bottom: 5px solid #252727;
 }
 
 .home-text {
