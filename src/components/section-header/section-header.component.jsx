@@ -20,10 +20,10 @@ const SectionHeader = (props) => {
   return (
     <div>
         {!isMobile && <h1 style={sectionHeaderStyle} className="section-header">
-            &#123; <span className="section-header-title">&nbsp;&nbsp;{props.header_name}&nbsp;&nbsp;</span> &#125;
+            &#123; <span className="section-header-title" style={{color:'#e2e2e2'}}>&nbsp;&nbsp;{props.header_name}&nbsp;&nbsp;</span> &#125;
         </h1>}
         {isMobile && <h1 style={mobileSectionHeaderStyle} className="section-header">
-            &#123; <span className="section-header-title">&nbsp;&nbsp;{props.header_name}&nbsp;&nbsp;</span> &#125;
+            &#123; <span className="section-header-title" style={{color:'#e2e2e2'}}>&nbsp;&nbsp;{props.header_name}&nbsp;&nbsp;</span> &#125;
         </h1>}
     </div>
     
