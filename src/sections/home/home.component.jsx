@@ -39,7 +39,7 @@ const Home = () => {
                         loop={1}
                         cursor
                         cursorStyle='|'
-                        typeSpeed={110}
+                        typeSpeed={120}
                         deleteSpeed={50}
                         delaySpeed={500}
                         onLoopDone={handleLoopDone}
