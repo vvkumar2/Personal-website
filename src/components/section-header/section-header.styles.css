@@ -1,13 +1,5 @@
-.section-header {
-    /* color: rgb(32, 141, 83); */
-    color: #187772;
-    /* background: linear-gradient(to right, #257e79, #0e524e);
-    -webkit-text-fill-color: transparent;
-    background-clip: text; */
-    font-size: 60px;
-    margin: 70px 0px 20px 0px;
-}
-  
 .section-header-title {
     color: #e2e2e2;
+    /* color: #ddd4ab; */
 }
+

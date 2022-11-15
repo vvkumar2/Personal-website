@@ -4,8 +4,8 @@ import Logo from "../../components/logo/logo.component";
 import MenuButton from "../../components/menu-button/menu-button.component";
 import './home.styles.css'
 import { Typewriter } from 'react-simple-typewriter'
-import linkedin_logo from "../../images/linkedin-logo.png"
-import github_logo from "../../images/github-logo.png"
+import linkedin_logo from "../../images/linkedin-logo-cream.png"
+import github_logo from "../../images/github-logo-cream.png"
 import down_arrow from "../../images/down-arrow-5.png"
 
 

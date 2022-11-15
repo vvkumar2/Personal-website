@@ -1,7 +1,9 @@
 .experience-box {
-    background-color: #191a1a;
+    /* background-color: #191a1a; */
+    background-color: #171f3b;
     border-radius: 15px;
     width: 60%;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -15,6 +17,10 @@
     box-shadow: 1px 1px 25px #121111;
 
     transition: .2s;
+}
+
+.experience-name, .experience-position, .experience-location, .experience-year {
+    padding-top: 8px;
 }
 
 .experience-box-header {
@@ -59,11 +65,24 @@
 
 .experience-box-text {
     margin: 0px;
-    padding: 0px 100px 20px 10px;
+    padding: 0px 50px 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     justify-items: left;
     text-align: left;
     color: #d0d1cb;
+}
+
+@media (max-width: 500px){
+    .experience-name {
+        font-size: 25px;
+    }
+    .experience-position, .experience-location, .experience-year {
+        font-size: 18px;
+    }
+    .experience-box-text{  
+       padding: 0px 20px 20px 10px;
+       font-size: 15px;
+    } 
 }

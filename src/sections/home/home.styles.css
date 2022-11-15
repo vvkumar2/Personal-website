@@ -3,20 +3,21 @@
     text-align: center;
     margin: 0 auto 100px auto;
     height: 100vh;
-    width: 90%;
-    border-bottom: 5px solid #252727;
+    min-height: 1000px;
+    border-bottom: 5px solid #171d36;
 }
 
 .home-text {
     font-size: 50px;
     color: white;
-    padding-top: 35vh;
+    /* padding-top: 35vh; */
     font-family: "Montserrat";
-    margin: 0px
+    margin: 0px;
+    padding: 35vh 20px 0px 20px;
 }
 
 .home-links-hide .home-link-logo1 {
-    margin: 200px 50px 0px 50px;
+    margin: 500px 50px 0px 50px;
     opacity: 0;
     transition: 1s;
     pointer-events:none;
@@ -25,11 +26,12 @@
 .home-links-show .home-link-logo1 {
     opacity: 1;
     transition: 1s;
-    margin: 80px 50px 0px 50px;
+    margin: 0px 50px 0px 50px;
+    padding-top: max(50px, 10%);
 }
 
 .home-links-hide .home-link-logo2 {
-    margin: 200px 50px 0px 50px;
+    margin: 500px 50px 0px 50px;
     opacity: 0;
     transition: 1s;
     pointer-events:none;
@@ -38,11 +40,12 @@
 .home-links-show .home-link-logo2 {
     opacity: 1;
     transition: 1s;
-    margin: 80px 50px 0px 50px;
+    margin: 0px 50px 0px 50px;
+    padding-top: max(50px, 10%);
 }
 
 .home-links-hide .home-link-down-arrow {
-    margin: 300px 50px 0px 50px;
+    margin: 500px 50px 0px 50px;
     opacity: 0;
     transition: 1s;
     pointer-events:none;
@@ -51,8 +54,9 @@
 .home-links-show .home-link-down-arrow {
     opacity: 1;
     transition: 1s;
-    margin: 180px 50px 0px 50px;
+    margin: 0px 50px 0px 50px;
     cursor: pointer;
+    margin-top: max(150px, 10%);
 }
 
 .home-links-show .home-link-logo1:hover {
@@ -72,4 +76,11 @@
     padding: 10px;
     transform: translateY(-20px);
     transition: .5s;
+}
+
+@media (max-width: 500px){
+    .home-text {
+        padding-top: 35%;
+        font-size: 40px;
+    }
 }

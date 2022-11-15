@@ -3,6 +3,7 @@
     font-size: 14px;
     font-family: "Montserrat";
     color: white;
+    /* color: #cfbbab; */
     position: fixed;
     padding: 10px 0px 0px 15px;
 }
@@ -10,4 +11,10 @@
 .logo-text {
     line-height: 30px;
     margin: 0px;
+}
+
+@media (max-width: 500px){
+    .logo-container{  
+       position: absolute;
+    } 
 }

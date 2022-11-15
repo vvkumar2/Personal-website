@@ -1,8 +1,9 @@
 .image-container {
     width: 160px;
     height: 150px;
-    background-color: #191a1a;
-    border: 1px solid #252727;
+    /* background-color: #191a1a; */
+    background-color: #171d36;
+    border: 1px solid #1f294e;
 
     transition: .15s;
 }
