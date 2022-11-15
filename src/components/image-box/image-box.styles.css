@@ -35,3 +35,22 @@
     color: #d0d1cb;
     font-size: 16px;
 }
+
+@media (max-width: 550px){
+    .image-container {
+        width: 130px;
+        height: 130px;
+    }
+
+    .image-container-items {
+        padding-top: 25px;
+    }
+
+    .image {
+        max-height: 55px;
+    }
+    
+    .image-skill {
+        font-size: 14px;
+    }
+}
