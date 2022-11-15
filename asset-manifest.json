@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb0c464d.css",
-    "main.js": "/static/js/main.b66896ae.js",
+    "main.css": "/static/css/main.3295b6d1.css",
+    "main.js": "/static/js/main.856b5254.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/python-logo.png": "/static/media/python-logo.dea924d737bb84eb9ce3.png",
     "static/media/cpp-logo.png": "/static/media/cpp-logo.64f637357bce0ccc8384.png",
@@ -19,12 +19,12 @@
     "static/media/bash-logo.png": "/static/media/bash-logo.695c1922064fb689dd9b.png",
     "static/media/js-logo.png": "/static/media/js-logo.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.fb0c464d.css.map": "/static/css/main.fb0c464d.css.map",
-    "main.b66896ae.js.map": "/static/js/main.b66896ae.js.map",
+    "main.3295b6d1.css.map": "/static/css/main.3295b6d1.css.map",
+    "main.856b5254.js.map": "/static/js/main.856b5254.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb0c464d.css",
-    "static/js/main.b66896ae.js"
+    "static/css/main.3295b6d1.css",
+    "static/js/main.856b5254.js"
   ]
 }
