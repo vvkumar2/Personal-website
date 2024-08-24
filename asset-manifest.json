@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f8fe851.css",
-    "main.js": "/static/js/main.8fc559bc.js",
+    "main.css": "/static/css/main.a2c1dd1e.css",
+    "main.js": "/static/js/main.3700376b.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/flutter-logo.png": "/static/media/flutter-logo.a6cdec7b7a23272820d1.png",
     "static/media/python-logo.png": "/static/media/python-logo.dea924d737bb84eb9ce3.png",
+    "static/media/docker-logo.png": "/static/media/docker-logo.eb2f578465bab389e141.png",
+    "static/media/c-sharp-logo.png": "/static/media/c-sharp-logo.456d41f630085700b5d8.png",
     "static/media/cpp-logo.png": "/static/media/cpp-logo.64f637357bce0ccc8384.png",
     "static/media/lisp-logo.png": "/static/media/lisp-logo.b6b38a17e94c2cd6a24f.png",
     "static/media/tensorflow-logo.png": "/static/media/tensorflow-logo.42ff285e754b23972de0.png",
@@ -19,12 +22,12 @@
     "static/media/bash-logo.png": "/static/media/bash-logo.695c1922064fb689dd9b.png",
     "static/media/js-logo.png": "/static/media/js-logo.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.1f8fe851.css.map": "/static/css/main.1f8fe851.css.map",
-    "main.8fc559bc.js.map": "/static/js/main.8fc559bc.js.map",
+    "main.a2c1dd1e.css.map": "/static/css/main.a2c1dd1e.css.map",
+    "main.3700376b.js.map": "/static/js/main.3700376b.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f8fe851.css",
-    "static/js/main.8fc559bc.js"
+    "static/css/main.a2c1dd1e.css",
+    "static/js/main.3700376b.js"
   ]
 }
