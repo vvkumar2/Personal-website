@@ -18,7 +18,10 @@ import sklearn_logo from "../../images/sklearn-logo.png";
 import git_logo from "../../images/git-logo.png";
 import lisp_logo from "../../images/lisp-logo.png";
 import flask_logo from "../../images/flask-logo.png";
-// import pandas_logo from "../../images/pandas-logo.png";
+import net_logo from "../../images/net-logo.png";
+import c_sharp_logo from "../../images/c-sharp-logo.png";
+import flutter_logo from "../../images/flutter-logo.png";
+import docker_logo from "../../images/docker-logo.png";
 
 const ImageBoxList = (props) => {
   return (
@@ -28,18 +31,21 @@ const ImageBoxList = (props) => {
         <ImageBox skill_name="C++" image_location={cpp_logo}/>
         <ImageBox skill_name="C" image_location={c_logo}/>
         <ImageBox skill_name="Java" image_location={java_logo}/>
+        <ImageBox skill_name="C#" image_location={c_sharp_logo}/>
+        <ImageBox skill_name=".NET" image_location={net_logo}/>
         <ImageBox skill_name="Bash" image_location={bash_logo}/>
-        <ImageBox skill_name="Lisp" image_location={lisp_logo}/>
         <ImageBox skill_name="React" image_location={react_logo}/>
+        <ImageBox skill_name="Dart & Flutter" image_location={flutter_logo}/>
         <ImageBox skill_name="Flask" image_location={flask_logo}/>
+        <ImageBox skill_name="Lisp" image_location={lisp_logo}/>
         <ImageBox skill_name="HTML" image_location={html_logo}/>
         <ImageBox skill_name="CSS" image_location={css_logo}/>
         <ImageBox skill_name="SQL" image_location={sql_logo}/>
         <ImageBox skill_name="R" image_location={r_logo}/>
         <ImageBox skill_name="TensorFlow" image_location={tensorflow_logo}/>
         <ImageBox skill_name="scikit-learn" image_location={sklearn_logo}/>
-        {/* <ImageBox skill_name="Pandas" image_location={pandas_logo}/> */}
         <ImageBox skill_name="Git" image_location={git_logo}/>
+        <ImageBox skill_name="Docker" image_location={docker_logo}/>
     </div>
     
   );

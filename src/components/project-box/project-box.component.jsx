@@ -8,9 +8,9 @@ const ProjectBox = (props) => {
     <div className="project-box">
         <div className="project-box-header">
             <div className="header-line-one">
-                <a href={props.url} target="_blank">
+                <div>
                     <h1 className="project-name">{props.name}</h1>
-                </a>
+                </div>
                 <div className="project-right-side">
                     <div className="colored_bubble">
                         <ColoredCircle color={props.bubble_color} />
@@ -19,6 +19,9 @@ const ProjectBox = (props) => {
                 </div>
             </div>
             <div className="header-line-two">
+                <a href={props.url} rel="noreferrer" target="_blank" className="project-url">
+                    {props.url_type}
+                </a>
                 <h2 className="project-year-created">{props.year}</h2>
             </div>
             

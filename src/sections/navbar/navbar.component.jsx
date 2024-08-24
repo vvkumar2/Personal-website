@@ -6,8 +6,6 @@ import MenuButton from "../../components/menu-button/menu-button.component";
 import './navbar.styles.css'
 
 const Navbar = () => {
-  var app = document.getElementById('app');
-
   return (
     <div className="navbar-section">
         <div className="logo-in-navbar">

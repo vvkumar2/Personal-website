@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import {BrowserRouter as Router, Link} from 'react-router-dom';
 import Logo from "../../components/logo/logo.component";
 import MenuButton from "../../components/menu-button/menu-button.component";
 import './home.styles.css'
@@ -18,10 +17,6 @@ const Home = () => {
     }
 
     const homeLinkClasses = typewriterDone ? 'home-links-show' : 'home-links-hide'
-
-    const scrollToAboutMe = () => {
-        document.getElementById('services-portfolio-past-work-container').scrollIntoView();
-    }
     
     return (
         <div>
@@ -46,11 +41,11 @@ const Home = () => {
                     />
                 </h1>
                 <div className={homeLinkClasses}>
-                    <a href="https://github.com/vvkumar2" target="_blank">
+                    <a href="https://github.com/vvkumar2" rel="noreferrer" target="_blank">
                         <img className="home-link-logo1" src={github_logo} alt="" width="137" />
                     </a>
                     
-                    <a href="https://www.linkedin.com/in/varunkumar5/" target="_blank">
+                    <a href="https://www.linkedin.com/in/varunkumar5/" rel="noreferrer" target="_blank">
                         <img className="home-link-logo2" src={linkedin_logo} alt="" width="130" />
                     </a>
                 </div>
